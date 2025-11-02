@@ -1,5 +1,0 @@
-print("Shanzid")
-print('Shanzid')
-print("Shanzid's")
-print("SHANZID " * 10)
-print("Shanzid Helal Emon is a good Boy.")
