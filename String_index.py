@@ -12,3 +12,10 @@ print(message[len(message)-1])
 #the short method is negative indexing(only in python)
 print(message[-1])
 print(message[-8])
+
+#String is immutable data type
+#thats mean string char can not be updated by index number;
+#message[0]=1#eror
+#print(message)#eror
+print("Python is a immutable data type")
+print("Thats mean string can not be update manually")
