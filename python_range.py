@@ -1,0 +1,10 @@
+#range
+#range(start,stop,sequence)
+a=range(10)
+print(a)
+b=list(range(0,10))
+print(b)
+c=tuple(range(3,10,3))
+print(c)
+d=list(range(100,2,-2))
+print(d)
