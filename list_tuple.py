@@ -14,6 +14,9 @@ print(shanzid)
 #reverse is a function where we can reverse list
 shanzid.reverse()
 print(shanzid)
+#list example
+list1=[3,4,5,6,7,7,8,8]
+print("List 1 is :",list1)
 
 #tupple is immutable.
 #we can not change or modify value in tupple.
