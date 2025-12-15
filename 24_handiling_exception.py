@@ -40,4 +40,3 @@ finally: # It will excute whatever upper code.
 def check_file(filename):
        if not filename.endswith(.txt):
        raise ValueError('Only .tst file is allowed')
-

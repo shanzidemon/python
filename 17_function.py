@@ -7,7 +7,7 @@ x=input("Enter a value")
 print(f"The entered value is {x}")
 mx=max([1,2,3,4,5])
 print(mx*3)
-2.User Define function.---->Programer make it at the time of work.
+# 2.User Define function.---->Programer make it at the time of work.
 #input,No return
 def my_function():
     a=10
