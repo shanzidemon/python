@@ -32,11 +32,19 @@ try:
 except Exception as e:
         print('Eror Occured |',e)
 else:
-    print('Code Exicuted Successfully.') # no exception occurs inside this specific try
+    print('Code Exicuted Successfully.') # no exception occurs inside this specific try.
 finally: # It will excute whatever upper code.
        print('Eta exicute hobe.')
 
 # we can manually trigger a exception.
 def check_file(filename):
-       if not filename.endswith(.txt):
-       raise ValueError('Only .tst file is allowed')
+       if not filename.endswith('.txt'):
+        raise ValueError('Only .txt file is allowed')
+       print('Valid file')
+check_file('name.txt')
+
+#Custom eror Hadeling
+try:
+       check_file('data.csv')
+except Exception as e:
+       print(e)

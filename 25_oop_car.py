@@ -18,7 +18,8 @@ class Car:
     def __init__(self,brand='BmW',model='A17'):
         self.brand=brand   #Dafult value Constructor
         self.model=model
-
+    def Showinfo(self):
+        print(f"Car model: {self.model}\nCar Brand:{self.brand}")
 car0=Car()
 car0.model='Lambo'
 car0.brand='A12'
@@ -33,3 +34,4 @@ print(car1.model)
 car2=Car()
 print(car2.brand)
 print(car2.model)
+car1.Showinfo()
