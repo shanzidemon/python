@@ -10,7 +10,7 @@ try: # J code a exception thakte pare
         print(container.read())
         print(10/10)
         x=int('adfsdaf')
-        print(list[100])
+        print(Number[100])
 except FileNotFoundError:
         print('File not found')
 except ZeroDivisionError:
@@ -19,13 +19,15 @@ except NameError:
         print('Name Eror Occured')
 except ValueError:
         print('String can not convert into integer')
+
 # for example,Here file.txt not exist but syntex is correct .
-#so here will come exception.
+# so here will come exception.
 try:
-        list=[1,2,3,4,5,6]
-        print(list[100])
+        Number=[1,2,3,4,5,6]
+        print(Number[100])
 except IndexError:
         print('wrong indexing')
+
 try:
         h=zxy
         print(h)
@@ -41,9 +43,10 @@ def check_file(filename):
        if not filename.endswith('.txt'):
         raise ValueError('Only .txt file is allowed')
        print('Valid file')
+
 check_file('name.txt')
 
-#Custom eror Hadeling
+# Custom eror Hadeling
 try:
        check_file('data.csv')
 except Exception as e:
