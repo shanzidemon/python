@@ -8,7 +8,7 @@ class Car:
 # Python does not support method overloading by signature.
 # python simply ignore the previous constructo and call the last constructor
 # python doest not detect constructor like c++ or java.
-    def __init__(self):
+    def __init__(self):#dunder method;
         self.brand=''   #Default Constructor
         self.model=''
 
@@ -18,7 +18,7 @@ class Car:
     def __init__(self,brand='BmW',model='A17'):
         self.brand=brand   #Dafult value Constructor
         self.model=model
-    def Showinfo(self):
+    def Showinfo(self): #instance merhod; self refer/indicate object of a class;
         print(f"Car model: {self.model}\nCar Brand:{self.brand}")
 car0=Car()
 car0.model='Lambo'
